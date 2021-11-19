@@ -1,0 +1,225 @@
+body {
+  background-image: url("images/lo.jpg");
+  background-size: cover;
+}
+
+.card-w,
+.card-h {
+  background-color: rgb(235, 86, 0);
+  opacity: 80%;
+  border-color: white;
+  border-radius: 50px;
+  padding: 25px;
+  margin: 55px;
+  -webkit-box-reflect: below 0px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+}
+
+.card-h:hover,
+.card-w:hover {
+  opacity: 100%;
+}
+
+.card-text:hover,
+.card-title:hover {
+  color: white;
+}
+
+.card-title {
+  font-size: 27px;
+  font-family: monospace;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+}
+
+.card-textA,
+.card-textB,
+.windSpeedMetric,
+.humidityMetric {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  margin-left: 14px;
+}
+
+.card-textB {
+  font-size: 24px;
+  color: white;
+  font-family: monospace;
+
+  padding: 12px;
+}
+
+.card-location {
+  border-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 60px;
+}
+
+.card-name {
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  font-family: monospace;
+}
+.card-time {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+}
+
+.input-group {
+  margin: 10px;
+  padding: 10px;
+}
+
+.btn-outline-secondary {
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+}
+
+.Weekly {
+  color: white;
+  font-family: monospace;
+  display: block;
+}
+
+.forecast-icon {
+  max-width: 50px;
+}
+
+#currentTemp {
+  font-size: 40px;
+  font-family: monospace;
+  color: white;
+  margin-left: 20px;
+}
+
+#changeCity {
+  font-size: 50px;
+  font-family: monospace;
+  color: white;
+  margin-left: 20px;
+}
+#today-date {
+  font-size: 43px;
+  color: white;
+  padding: 20px;
+  font-family: monospace;
+}
+
+.Sun,
+.Mon,
+.Tue,
+.Wed,
+.Thu,
+.Fri {
+  font-weight: bolder;
+  color: white;
+  font-family: monospace;
+  background-color: black;
+  border-radius: 40px;
+  margin: 10px 85px;
+  opacity: 75%;
+}
+#text-form {
+  padding: 14px;
+  border-radius: 30px;
+}
+
+.WeekForecast {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin: 9px;
+  text-align: center;
+  font-family: monospace;
+}
+
+.forecast-icon {
+  background-color: white;
+  opacity: 60%;
+  border-radius: 50px;
+}
+
+.forecast-icon:hover {
+  background-color: white;
+  opacity: 100%;
+}
+
+.Sun:hover,
+.Mon:hover,
+.Tue:hover,
+.Wed:hover,
+.Thu:hover,
+.Fri:hover {
+  background-color: white;
+  opacity: 100%;
+  color: black;
+}
+
+#button {
+  background-color: purple;
+  border-radius: 18px;
+  border: none;
+  padding: 12px;
+  color: white;
+  font-size: 14px;
+  font-family: monospace;
+}
+
+#current-location-button {
+  background-color: blueviolet;
+  border-radius: 18px;
+  border: none;
+  padding: 12px;
+  max-width: 200px;
+  margin-left: 15px;
+  color: white;
+  font-size: 14px;
+  font-family: monospace;
+}
+#button:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  opacity: 90%;
+}
+
+#current-location-button:hover {
+  background-color: orange;
+  color: black;
+  font-weight: bold;
+  opacity: 90%;
+}
+
+#city-input {
+  border-radius: 50px;
+  border: none;
+  padding: 9px;
+}
+
+.units {
+  color: white;
+  font-family: monospace;
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 18px;
+}
+
+.units:hover {
+  color: orangered;
+  text-decoration: none;
+}
+
+#deg {
+  font-size: 40px;
+  font-family: monospace;
+  color: white;
+}
